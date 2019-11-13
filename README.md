@@ -1,2 +1,2 @@
 # Projekt Rovdjur
-Utveckling av projekt...
+Utveckling av projekt..
