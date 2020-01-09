@@ -1,1 +1,76 @@
-/* Denna fil skall innehålla din CSS kod */
+#container {
+    display: grid; 
+    height: 812;
+    width: 375;
+    grid-template-areas:
+    'hd hd'
+    'mn mn'
+    'nav nav'
+    'ft ft'
+}
+
+body {
+    background-color: rgb(49, 51, 49)
+}
+
+header {
+grid-area: hd;
+text-align: center;
+color:rgb(255, 255, 255);
+}
+
+main {
+    color:rgb(255, 255, 255);
+    align-content: center;
+    padding: 2px;
+}
+
+footer {
+    grid-area: ft;
+}
+
+#vargtext {
+    font-size: 33px;
+    position: relative; 
+    left: 103px;
+    color:rgb(255, 255, 255);
+
+}
+
+#kungorntext {
+    font-size: 30px;
+    position: relative;
+    left: 68px;
+    color:rgb(255, 255, 255);
+}
+
+#vargbild2 {
+    width: 48vh;
+}
+
+#kungornbild2 {
+    width: 48vh;
+}
+
+#pil {
+    position: relative;
+    right: 30px;
+    width: 6vh;
+}
+
+#greenpeacelogo {
+    position: relative;
+    width: 35vh;
+    left: 15px;    
+}
+
+#rubrik {
+   text-align: center;
+   font-size: 50px;
+
+}
+
+#djurubrik {
+    text-align: center; 
+    font-size: 50px;
+}
